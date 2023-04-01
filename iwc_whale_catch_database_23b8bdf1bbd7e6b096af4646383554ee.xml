@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Metadata generated using MEDIN Online Tool -->
+<gmd:MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xsi:schemaLocation="http://www.isotc211.org/2005/gmx http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/gmx/gmx.xsd">
+ <gmd:fileIdentifier>
+  <gco:CharacterString>23b8bdf1bbd7e6b096af4646383554ee</gco:CharacterString>
+ </gmd:fileIdentifier>
+ <!-- Metadata language -->
+ <gmd:language>
+  <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">English</gmd:LanguageCode>
+ </gmd:language>
+ <!-- Resource type -->
+ <gmd:hierarchyLevel>
+  <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+ </gmd:hierarchyLevel>
+ <!-- Metadata point of contact -->
+ <gmd:contact>
+  <gmd:CI_ResponsibleParty>
+   <gmd:organisationName>
+    <gco:CharacterString>International Whaling Commission</gco:CharacterString>
+   </gmd:organisationName>
+   <gmd:positionName>
+    <gco:CharacterString>Department of Statistics and Modeling</gco:CharacterString>
+   </gmd:positionName>
+   <gmd:contactInfo>
+    <gmd:CI_Contact>
+     <gmd:address>
+      <gmd:CI_Address>
+       <gmd:electronicMailAddress>
+        <gco:CharacterString>statistics@iwc.int</gco:CharacterString>
+       </gmd:electronicMailAddress>
+      </gmd:CI_Address>
+     </gmd:address>
+    </gmd:CI_Contact>
+   </gmd:contactInfo>
+   <gmd:role>
+    <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+   </gmd:role>
+  </gmd:CI_ResponsibleParty>
+ </gmd:contact>
+ <!-- Date of update -->
+ <gmd:dateStamp>
+  <gco:Date>2023-04-01</gco:Date>
+ </gmd:dateStamp>
+ <!-- Metadata standard name -->
+ <gmd:metadataStandardName>
+  <gco:CharacterString>MEDIN Discovery metadata standard</gco:CharacterString>
+ </gmd:metadataStandardName>
+ <gmd:metadataStandardVersion>
+  <gco:CharacterString>2.3.8</gco:CharacterString>
+ </gmd:metadataStandardVersion>
+ <!-- Spatial reference system Medin 2.3.8 multiple inputs allowed-->
+ <gmd:referenceSystemInfo>
+  <gmd:MD_ReferenceSystem>
+   <gmd:referenceSystemIdentifier>
+    <gmd:RS_Identifier>
+     <gmd:code>
+      <gco:CharacterString>urn:ogc:def:crs:EPSG::4326</gco:CharacterString>
+     </gmd:code>
+    </gmd:RS_Identifier>
+   </gmd:referenceSystemIdentifier>
+  </gmd:MD_ReferenceSystem>
+ </gmd:referenceSystemInfo>
+ <gmd:identificationInfo>
+  <gmd:MD_DataIdentification>
+   <gmd:citation>
+    <gmd:CI_Citation>
+     <!-- Title -->
+     <gmd:title>
+      <gco:CharacterString>IWC whale catch database</gco:CharacterString>
+     </gmd:title>
+     <!-- Date of publication -->
+     <gmd:date>
+      <gmd:CI_Date>
+       <gmd:date>
+        <gco:Date>2023-01-01</gco:Date>
+       </gmd:date>
+       <gmd:dateType>
+        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+       </gmd:dateType>
+      </gmd:CI_Date>
+     </gmd:date>
+     <!-- Date of creation -->
+     <gmd:date>
+      <gmd:CI_Date>
+       <gmd:date>
+        <gco:Date>2023-01-01</gco:Date>
+       </gmd:date>
+       <gmd:dateType>
+        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+       </gmd:dateType>
+      </gmd:CI_Date>
+     </gmd:date>
+     <gmd:date>
+      <gmd:CI_Date>
+       <gmd:date>
+        <gco:Date>2023-01-01</gco:Date>
+       </gmd:date>
+       <gmd:dateType>
+        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+       </gmd:dateType>
+      </gmd:CI_Date>
+     </gmd:date>
+     <!--Unique Identifiers 2.3.8 compliant for multiple entries-->
+     <gmd:identifier>
+      <gmd:RS_Identifier>
+       <!--code-->
+       <gmd:code>
+        <gco:CharacterString>wcdb72</gco:CharacterString>
+       </gmd:code>
+       <!--code-->
+       <gmd:codeSpace>
+        <gco:CharacterString>http://iwc.int (to be added)</gco:CharacterString>
+       </gmd:codeSpace>
+      </gmd:RS_Identifier>
+     </gmd:identifier>
+    </gmd:CI_Citation>
+   </gmd:citation>
+   <!-- Abstract -->
+   <gmd:abstract>
+    <gco:CharacterString>The magnitude of whaling in the 20th century is well known. Catch records for many whaling operations were reported to and assembled by the Bureau of Whaling Statistics (BIWS) between 1930 and 1986, and subsequently the International Whaling Commission (IWC). An integrated database representing the complete catch data has been developed to hold historical and current catch data from whaling operations. It is the result of a long-term project conducted by the International Whaling Commission of assembling the BIWS and IWC data into a single database of catches for the entire century. The data list direct catches of large whales since 1900 per expedition/land station and season, and some incomplete information on catches taken in the late 1800s. 
+     Data are both presented in summaries and for individual harvested whales. The summaries include information from sources that do not give data on each individual harvested whale. The data on individual harvested whales include the date of capture, length and sex of the whale, foetus details, stomach contents and catch position. Improvements in the extent and reliability of the data were made, including a better allocation to species and the area.
+     The database confirms that the nature of whale catches is relatively well understood and improves our understanding of the completeness and reliability of some data sources. Through the process of assembling the database, whaling operations with substantial remaining uncertainties were identified; these should provide a guide towards additional archival research.</gco:CharacterString>
+    </gmd:abstract>
+    <!-- Originator -->
+    <gmd:pointOfContact>
+     <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+       <gco:CharacterString>Cherry Allison</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+       <gco:CharacterString>International Whaling Commission</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+       <gco:CharacterString>Lead of Statistics and Modeling</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+       <gmd:CI_Contact>
+        <gmd:address>
+         <gmd:CI_Address>
+          <gmd:electronicMailAddress>
+           <gco:CharacterString>statistics@iwc.int</gco:CharacterString>
+          </gmd:electronicMailAddress>
+         </gmd:CI_Address>
+        </gmd:address>
+       </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+       <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+      </gmd:role>
+     </gmd:CI_ResponsibleParty>
+    </gmd:pointOfContact>
+    <!-- Data point of contact -->
+    <gmd:pointOfContact>
+     <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+       <gco:CharacterString>International Whaling Commission</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+       <gco:CharacterString>Department of Statistics and Modeling</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+       <gmd:CI_Contact>
+        <gmd:address>
+         <gmd:CI_Address>
+          <gmd:electronicMailAddress>
+           <gco:CharacterString>statistics@iwc.int</gco:CharacterString>
+          </gmd:electronicMailAddress>
+         </gmd:CI_Address>
+        </gmd:address>
+       </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+       <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+      </gmd:role>
+     </gmd:CI_ResponsibleParty>
+    </gmd:pointOfContact>
+    <!-- Frequency of update -->
+    <gmd:resourceMaintenance>
+     <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency>
+       <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="biannually">biannually</gmd:MD_MaintenanceFrequencyCode>
+      </gmd:maintenanceAndUpdateFrequency>
+     </gmd:MD_MaintenanceInformation>
+    </gmd:resourceMaintenance>
+    <!-- Data format -->
+    <gmd:resourceFormat>
+     <gmd:MD_Format>
+      <gmd:name>
+       <gmx:Anchor xlink:type="simple" xlink:href="http://vocab.ndg.nerc.ac.uk/term/M010/1/DB">Database</gmx:Anchor>
+      </gmd:name>
+      <gmd:version gco:nilReason="unknown"/>
+     </gmd:MD_Format>
+    </gmd:resourceFormat>
+    <!-- Keywords -->
+    <gmd:descriptiveKeywords>
+     <gmd:MD_Keywords>
+      <gmd:keyword>
+       <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/">Marine Environmental Data and Information Network</gmx:Anchor>
+      </gmd:keyword>
+     </gmd:MD_Keywords>
+    </gmd:descriptiveKeywords>
+    <gmd:descriptiveKeywords>
+     <gmd:MD_Keywords>
+      <gmd:keyword>
+       <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P22/current/32/">Species distribution</gmx:Anchor>
+      </gmd:keyword>
+      <gmd:thesaurusName>
+       <gmd:CI_Citation>
+        <gmd:title>
+         <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+        </gmd:title>
+        <gmd:date>
+         <gmd:CI_Date>
+          <gmd:date>
+           <gco:Date>2008-01-06</gco:Date>
+          </gmd:date>
+          <gmd:dateType>
+           <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+          </gmd:dateType>
+         </gmd:CI_Date>
+        </gmd:date>
+       </gmd:CI_Citation>
+      </gmd:thesaurusName>
+     </gmd:MD_Keywords>
+    </gmd:descriptiveKeywords>
+    <gmd:descriptiveKeywords>
+     <gmd:MD_Keywords>
+      <gmd:keyword>
+       <gmx:Anchor xlink:href="">Biodiversity</gmx:Anchor>
+      </gmd:keyword>
+      <gmd:thesaurusName>
+       <gmd:CI_Citation>
+        <gmd:title>
+         <gco:CharacterString>GEMET</gco:CharacterString>
+        </gmd:title>
+        <gmd:date>
+         <gmd:CI_Date>
+          <gmd:date>
+           <gco:Date>2011-07-06</gco:Date>
+          </gmd:date>
+          <gmd:dateType>
+           <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+          </gmd:dateType>
+         </gmd:CI_Date>
+        </gmd:date>
+       </gmd:CI_Citation>
+      </gmd:thesaurusName>
+     </gmd:MD_Keywords>
+    </gmd:descriptiveKeywords>
+    <gmd:descriptiveKeywords>
+     <gmd:MD_Keywords>
+      <gmd:keyword>
+       <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/ZZZZ/">Unspecified</gmx:Anchor>
+      </gmd:keyword>
+      <gmd:keyword>
+       <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/BDRV/">Biodiversity indices</gmx:Anchor>
+      </gmd:keyword>
+      <gmd:thesaurusName>
+       <gmd:CI_Citation>
+        <gmd:title>
+         <gco:CharacterString>SeaDataNet P021 parameter discovery vocabulary</gco:CharacterString>
+        </gmd:title>
+        <gmd:date>
+         <gmd:CI_Date>
+          <gmd:date>
+           <gco:Date>2009-11-16</gco:Date>
+          </gmd:date>
+          <gmd:dateType>
+           <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+          </gmd:dateType>
+         </gmd:CI_Date>
+        </gmd:date>
+       </gmd:CI_Citation>
+      </gmd:thesaurusName>
+     </gmd:MD_Keywords>
+    </gmd:descriptiveKeywords>
+    <gmd:descriptiveKeywords>
+     <gmd:MD_Keywords>
+      <gmd:keyword>
+       <gmx:Anchor xlink:href="">oceans</gmx:Anchor>
+      </gmd:keyword>
+      <gmd:thesaurusName>
+       <gmd:CI_Citation>
+        <gmd:title>
+         <gco:CharacterString>International Standards Organisation ISO19115 Topic Categories</gco:CharacterString>
+        </gmd:title>
+        <gmd:date>
+         <gmd:CI_Date>
+          <gmd:date>
+           <gco:Date>2005-04-27</gco:Date>
+          </gmd:date>
+          <gmd:dateType>
+           <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+          </gmd:dateType>
+         </gmd:CI_Date>
+        </gmd:date>
+       </gmd:CI_Citation>
+      </gmd:thesaurusName>
+     </gmd:MD_Keywords>
+    </gmd:descriptiveKeywords>
+    <gmd:descriptiveKeywords>
+     <gmd:MD_Keywords>
+      <gmd:keyword>
+       <gmx:Anchor xlink:href="">whaling</gmx:Anchor>
+      </gmd:keyword>
+      <gmd:thesaurusName>
+       <gmd:CI_Citation>
+        <gmd:title>
+         <gco:CharacterString>whaling</gco:CharacterString>
+        </gmd:title>
+        <gmd:date>
+         <gmd:CI_Date>
+          <gmd:date>
+           <gco:Date>2020-03-27</gco:Date>
+          </gmd:date>
+          <gmd:dateType>
+           <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+          </gmd:dateType>
+         </gmd:CI_Date>
+        </gmd:date>
+       </gmd:CI_Citation>
+      </gmd:thesaurusName>
+     </gmd:MD_Keywords>
+    </gmd:descriptiveKeywords>
+    <!-- Conditions for access -->
+    <gmd:resourceConstraints>
+     <gmd:MD_Constraints>
+      <gmd:useLimitation>
+       <gco:CharacterString>Data can only be used for scientific and educational purposes. A description of those purposes should be given when the data are requested</gco:CharacterString>
+      </gmd:useLimitation>
+     </gmd:MD_Constraints>
+    </gmd:resourceConstraints>
+    <!-- Limitations on public access -->
+    <gmd:resourceConstraints>
+     <gmd:MD_LegalConstraints>
+      <gmd:accessConstraints>
+       <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+      </gmd:accessConstraints>
+      <gmd:otherConstraints>
+       <gco:CharacterString>Data need to be requested through email to statistics.iwc.int</gco:CharacterString>
+      </gmd:otherConstraints>
+     </gmd:MD_LegalConstraints>
+    </gmd:resourceConstraints>
+    <!--Resolution - Medin 2.3.8 multiple values and equiv scale allowed-->
+    <!-- Spatial Resolution Item -->
+    <gmd:spatialResolution>
+     <gmd:MD_Resolution>
+      <gmd:distance>
+       <gco:Distance uom="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/uom/gmxUom.xml#m">0.0001</gco:Distance>
+      </gmd:distance>
+     </gmd:MD_Resolution>
+    </gmd:spatialResolution>
+    <!-- Resource language -->
+    <gmd:language>
+     <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">English</gmd:LanguageCode>
+    </gmd:language>
+    <!-- Topic category -->
+    <gmd:topicCategory>
+     <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+    </gmd:topicCategory>
+    <gmd:extent>
+     <gmd:EX_Extent>
+      <!-- Extents -->
+      <gmd:geographicElement>
+       <gmd:EX_GeographicDescription>
+        <!-- Extent - by Identifier -->
+        <gmd:geographicIdentifier>
+         <gmd:MD_Identifier>
+          <gmd:authority>
+           <gmd:CI_Citation>
+            <gmd:title>
+             <gco:CharacterString>SeaDataNet vertical extent keywords</gco:CharacterString>
+            </gmd:title>
+            <gmd:date>
+             <gmd:CI_Date>
+              <gmd:date>
+               <gco:Date>2010-01-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+               <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+             </gmd:CI_Date>
+            </gmd:date>
+           </gmd:CI_Citation>
+          </gmd:authority>
+          <gmd:code>
+           <gco:CharacterString>water column</gco:CharacterString>
+          </gmd:code>
+         </gmd:MD_Identifier>
+        </gmd:geographicIdentifier>
+       </gmd:EX_GeographicDescription>
+      </gmd:geographicElement>
+      <!-- Geographic bounding box -->
+      <gmd:geographicElement>
+       <gmd:EX_GeographicBoundingBox>
+        <gmd:westBoundLongitude>
+         <gco:Decimal>-179.0000</gco:Decimal>
+        </gmd:westBoundLongitude>
+        <gmd:eastBoundLongitude>
+         <gco:Decimal>179.0000</gco:Decimal>
+        </gmd:eastBoundLongitude>
+        <gmd:southBoundLatitude>
+         <gco:Decimal>-80.0000</gco:Decimal>
+        </gmd:southBoundLatitude>
+        <gmd:northBoundLatitude>
+         <gco:Decimal>79.0000</gco:Decimal>
+        </gmd:northBoundLatitude>
+       </gmd:EX_GeographicBoundingBox>
+      </gmd:geographicElement>
+      <gmd:temporalElement>
+       <gmd:EX_TemporalExtent>
+        <gmd:extent>
+         <!-- Identifier -->
+         <gml:TimePeriod gml:id="medinwcdb72">
+          <gml:beginPosition>1948-01-01</gml:beginPosition>
+          <gml:endPosition>2023-01-01</gml:endPosition>
+         </gml:TimePeriod>
+        </gmd:extent>
+       </gmd:EX_TemporalExtent>
+      </gmd:temporalElement>
+     </gmd:EX_Extent>
+    </gmd:extent>
+    <!-- Additional information -->
+    <gmd:supplementalInformation>
+     <gco:CharacterString>\\10.10.1.253\Statistics\IWC-DBv7.1\Background</gco:CharacterString>
+    </gmd:supplementalInformation>
+   </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+   <gmd:MD_Distribution>
+    <!-- The ISO 19115 Constraints require this element! -->
+    <gmd:distributionFormat gco:nilReason="inapplicable"/>
+    <gmd:distributor>
+     <gmd:MD_Distributor>
+      <gmd:distributorContact>
+       <gmd:CI_ResponsibleParty>
+        <gmd:organisationName>
+         <gco:CharacterString>International Whaling Commission</gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:positionName>
+         <gco:CharacterString>Department of Statistics and Modeling</gco:CharacterString>
+        </gmd:positionName>
+        <gmd:contactInfo>
+         <gmd:CI_Contact>
+          <gmd:address>
+           <gmd:CI_Address>
+            <gmd:electronicMailAddress>
+             <gco:CharacterString>statistics@iwc.int</gco:CharacterString>
+            </gmd:electronicMailAddress>
+           </gmd:CI_Address>
+          </gmd:address>
+         </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <!-- Distributor -->
+        <gmd:role>
+         <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+        </gmd:role>
+       </gmd:CI_ResponsibleParty>
+      </gmd:distributorContact>
+     </gmd:MD_Distributor>
+    </gmd:distributor>
+    <!-- Resource locator -->
+    <gmd:transferOptions>
+     <gmd:MD_DigitalTransferOptions>
+      <gmd:onLine>
+       <gmd:CI_OnlineResource>
+        <gmd:linkage>
+         <gmd:URL>https://iwc.int/management-and-conservation/whaling/total-catches</gmd:URL>
+        </gmd:linkage>
+        <gmd:name>
+         <gco:CharacterString>total catches - whaling</gco:CharacterString>
+        </gmd:name>
+        <gmd:description>
+         <gco:CharacterString>The link gives a table of the summary of catches. Will be updated.</gco:CharacterString>
+        </gmd:description>
+       </gmd:CI_OnlineResource>
+      </gmd:onLine>
+     </gmd:MD_DigitalTransferOptions>
+    </gmd:transferOptions>
+    <!-- Resource locator -->
+    <gmd:transferOptions>
+     <gmd:MD_DigitalTransferOptions>
+      <gmd:onLine>
+       <gmd:CI_OnlineResource>
+        <gmd:linkage>
+         <gmd:URL>http://https://iwc.int/en/</gmd:URL>
+        </gmd:linkage>
+        <gmd:name>
+         <gco:CharacterString>IWC general website</gco:CharacterString>
+        </gmd:name>
+        <gmd:description>
+         <gco:CharacterString>IWC general website</gco:CharacterString>
+        </gmd:description>
+       </gmd:CI_OnlineResource>
+      </gmd:onLine>
+     </gmd:MD_DigitalTransferOptions>
+    </gmd:transferOptions>
+   </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+   <gmd:DQ_DataQuality>
+    <!-- Scope - Required by ISO 19115 constraint -->
+    <gmd:scope>
+     <gmd:DQ_Scope>
+      <gmd:level>
+       <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+      </gmd:level>
+     </gmd:DQ_Scope>
+    </gmd:scope>
+    <!-- Lineage -->
+    <gmd:lineage>
+     <gmd:LI_Lineage>
+      <gmd:statement>
+       <gco:CharacterString>The Bureau of International Whaling Statistics, based in Sandefjord, Norway, until 1984, has for some 50years acted as a repository for data collected by commercial whaling operations.  Summaries of these data have been published annually in authoritative reports, compiled with great care, which have formed the definitive record of modern whaling.  Since 1984 the IWC has taken over the functions of the Bureau. It is worth emphasising how comprehensive the original records are.  For almost all whales caught and reported to the Bureau a written record shows for each individual whale the expedition, date and position of capture, species, sex, length, the number of foetuses and their sex and length, and (less frequently) stomach contents.  These data are recorded for approximately two million animals. The infractions reports are forms sent to the IWC by member nations, listing any infractions including undersized (i.e.  those taken below the minimum size limit), oversized or lactating whales caught.  Lost whales are also listed (although they are not actually infractions).  These reports have been useful in confirming the lengths of undersized whales - often if a whale was reported with a short length this had been thought to be a typographical error.  Unfortunately, not all members have submitted infractions reports for every year.
+        The main source of data is KommandÃ¸r Chr.  Christensens Hvalfangstmuseum in Sandefjord, Norway which holds the data from the BIWS.  Most of the records are in the form shown in Appendix A.  Other records are in day-book format.  We are very grateful for the co-operation of Einar Wexelsen and Lone Kirchhoff whose assistance and support has been invaluable in the creation of this database.
+        Other major sources of data are:
+         > S.F.Harmer's records held at the Natural History Museum in London for the period 1913-1950; 
+        > data found and supplied by Dorete Bloch (mainly catches in the North Atlantic);
+        > revised Soviet data supplied by Dmitry Tormosov and Yuri Mikhalev and
+        > data from the Dale Rice Archive supplied by S.Mizroch (these data are in the process of being added)
+        All possible measures have been taken to ensure that the coding is as accurate as possible.  The coding is carried out using an on-line fast data-entry program that performs extensive and rigorous checks on the feasibility of the input.  The user is able to correct errors as they are detected.  The data is entered twice, in two independent streams (i.e.  by two people).  Discrepancies between the two streams are detected in a computerised comparison and then any corrections made after recourse to the original catch records.  Several subsequent checks of internal consistency are also carried out.  For example, the catch positions are plotted to ensure none are on land, and the data are summarised so that they may be compared with the BIWS published statistics.  However, this obviously cannot correct errors in the original records. Scripts on data quality control can be found in https://github.com/intwhcom/IWC-catches-database-development. Some of the columns in the tables relate to the quality of other columns.
+        Soviet Catch history revisions 1948-72: 
+        Yablokov (1994) reported that official Soviet whaling statistics previously submitted were unreliable in many aspects. During the 1994 meeting of the Scientific Committee, the Russian Federation scientist reported that an examination of original catch records from past Soviet whaling operations in the Southern Hemisphere from 1949/50 was revealing considerable falsifications of the records that had been submitted by the Soviet authorities to the Bureau of International Whaling Statistics (BIWS) and which were held in the IWC Secretariat database. 
+        A revised catch series has been compiled using data from former Soviet scientists, including information from Zemsky et al. (1995b).  In addition, Tormosov and Mikhalyev supplied individual data for some ships/seasons.  These data have now been encoded and validated and are included in the individual database (as the SU files).  Persons using these data in any publication should acknowledge the Soviet scientists who provided them.
+        References
+        Zemsky, V.A., Berzin, A.A., Mikhalyev, Y.A. and Tormosov, D.D. 1995. Soviet Antarctic Whaling Data (1947-1972). Center for Russian Environmental Policy, Moscow. 320pp. [In Russian and English].
+        Yablokov, A.V. 1994.  Validity of Whaling Data.  Nature vol 108 N367, 13 Jan 1994.
+        In Best, P.B.  1989.  (Some Comments on the BIWS Catch Record Database.  RIWC-39-pp363-9) some data quality issues are disscussed, including non-reporting or misidentification of catch records; stretching and shrinking of length measurements; under-reporting, inaccurate measurement and incorrect sex-determination of foetuses; and unreliable stomach content data. Some of the problems highlighted in Best 1989 are corrected in the current version of the database but the user should be aware of these limitations.
+       </gco:CharacterString>
+      </gmd:statement>
+     </gmd:LI_Lineage>
+    </gmd:lineage>
+   </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+ </gmd:MD_Metadata>
